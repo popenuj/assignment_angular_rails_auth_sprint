@@ -1,0 +1,7 @@
+<%= content_for(:angular_app) do %>
+  ng-app='AuthApp' ng-controller='UsersCtrl'
+<% end %>
+
+<h1>The user is {{ currentUser.email }}</h1>
+
+<%= link_to 'Logout', destroy_user_session_path %>

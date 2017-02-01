@@ -1,0 +1,1 @@
+var AuthApp = angular.module('AuthApp', ['ui.router', 'Devise']);
