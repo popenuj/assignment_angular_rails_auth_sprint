@@ -4,4 +4,4 @@
 
 <h1>The user is {{ currentUser.email }}</h1>
 
-<%= link_to 'Logout', destroy_user_session_path %>
+<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
